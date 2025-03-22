@@ -1,91 +1,19 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #003087;
-    color: white;
-    padding: 10px 20px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo h1 {
-    margin-left: 10px;
-    font-size: 24px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: #00a1d6;
-}
-
-.language {
-    margin-left: 20px;
-}
-
-.hero {
-    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
+/* पहले का कोड वही रहेगा, नीचे नया जोड़ें */
+.content {
+    padding: 40px;
     text-align: center;
 }
 
-.main-title {
-    font-size: 60px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.content h2 {
+    color: #003087;
 }
 
-.tagline {
-    font-size: 24px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+.content ul {
+    list-style: none;
+    padding: 0;
 }
 
-.links {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: #f5f5f5;
-}
-
-.links a {
-    margin: 0 20px;
-    padding: 10px 20px;
-    background-color: #003087;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.links a:hover {
-    background-color: #00a1d6;
+.content ul li {
+    font-size: 18px;
+    margin: 10px 0;
 }
